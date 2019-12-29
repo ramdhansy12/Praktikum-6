@@ -1,7 +1,7 @@
 data= { }
 def tambah_data (nama, nim , tugas, uts, uas) :
     nilaiakhir = round((float(tugas) * 0.3) + (float(uts) * 0.35) + (float(uas) * 0.35), 2)
-    data[nama] = nim, tugas, uts, uas,nilaiakhir
+    data[nama] = nama, nim, tugas, uts, uas,nilaiakhir
 
 def ubah_data(nama) :
     if nama in data.keys():
